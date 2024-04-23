@@ -1,8 +1,9 @@
 import React from 'react'
-import { BrowserRouter as Route, Routes } from "react-router-dom";
+
 import SignupForm from '../Components/Signup';
 import LoginForm from '../Components/Login';
 import Dashboard from '../Pages/Dashboard';
+import { Route, Routes } from 'react-router-dom';
 
 function AllRoutes() {
   return (
